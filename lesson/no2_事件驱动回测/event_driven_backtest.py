@@ -195,7 +195,7 @@ class BackTester:
 
 if __name__ == "__main__":
     # 执行回测
-    _path = "/Users/macos/project23/backtest_study/bt_proj/b_data/btc5m.csv"
+    _path = "market_data/btc5m.csv"
     back_tester = BackTester("BTCUSDT", "2021-12-01", "2022-03-01")
     back_tester.check_position()
     back_tester.strategy = MeanRevertingStrategy()
